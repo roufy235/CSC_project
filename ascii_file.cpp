@@ -7,6 +7,7 @@
 void displayASCII() {
     std::cout << (int) 'a' << std::endl;
     std::cout << (int) 'b' << std::endl;
+    std::cout << (int) 'c' << std::endl;
     std::cout << (int) 'A' << std::endl;
     std::cout << char(65) << std::endl;
 }
