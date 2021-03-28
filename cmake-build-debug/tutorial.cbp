@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/roufy235/Documents/c++Projects/tutorial/ascii_file.cpp">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="/Users/roufy235/Documents/c++Projects/tutorial/ascii_file.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="/Users/roufy235/Documents/c++Projects/tutorial/main.cpp">
 			<Option target="tutorial"/>
 		</Unit>

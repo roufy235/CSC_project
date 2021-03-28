@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "ascii_file.h"
 
 int main() {
 
@@ -11,5 +11,6 @@ int main() {
     bool isLoading = false;
 
     std::cout << "Hello, World!" << std::endl;
+    displayASCII();
     return 0;
 }

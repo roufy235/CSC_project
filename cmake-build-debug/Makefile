@@ -143,6 +143,33 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
+ascii_file.o: ascii_file.cpp.o
+
+.PHONY : ascii_file.o
+
+# target to build an object file
+ascii_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/ascii_file.cpp.o
+.PHONY : ascii_file.cpp.o
+
+ascii_file.i: ascii_file.cpp.i
+
+.PHONY : ascii_file.i
+
+# target to preprocess a source file
+ascii_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/ascii_file.cpp.i
+.PHONY : ascii_file.cpp.i
+
+ascii_file.s: ascii_file.cpp.s
+
+.PHONY : ascii_file.s
+
+# target to generate assembly for a file
+ascii_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/ascii_file.cpp.s
+.PHONY : ascii_file.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tutorial"
+	@echo "... ascii_file.o"
+	@echo "... ascii_file.i"
+	@echo "... ascii_file.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
